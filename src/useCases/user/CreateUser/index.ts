@@ -22,4 +22,4 @@ const createUserController = new CreateUserController(
   jsonWebTokenJwtProvider,
 );
 
-export { createUserController };
+export { createUserController, createUserUseCase };

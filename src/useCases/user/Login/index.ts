@@ -17,4 +17,4 @@ const loginController = new LoginController(
   jsonWebTokenJwtProvider,
 );
 
-export { loginController };
+export { loginController, loginUseCase };

@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "events" ALTER COLUMN "updated_at" SET DEFAULT CURRENT_TIMESTAMP,
+ALTER COLUMN "deleted_at" DROP NOT NULL;

@@ -28,10 +28,10 @@ model Event {
   date        DateTime
   created_at  DateTime @default(now())
   updated_at  DateTime @default(now())
-  deleted_at  DateTime?
   deleted     Boolean  @default(false)
   userId      String
   user        User     @relation(fields: [userId], references: [id])
+  participants String @default("[]")
 
   @@map("events")
 }

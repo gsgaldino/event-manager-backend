@@ -1,4 +1,4 @@
-import GetPublicEventsController from "./getPublicEventsController";
+import GetPublicEventsController from "./GetPublicEventsController";
 import GetPublicEventsUseCase from "./GetPublicEventsUseCase";
 
 import PostgresEventRepository from "../../../repositories/implementations/PostgresEventRepository";
